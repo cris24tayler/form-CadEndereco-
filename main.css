@@ -1,0 +1,29 @@
+body{
+    background: linear-gradient(-45deg,  #002fff, #14bed4, #1ccce4, #002fff )
+}
+.container{
+    text-align: center;
+}
+.border{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.border input {
+    width: 95%;
+    margin-bottom: 9px;
+    padding: 10px;
+
+}
+.btn-succes{
+    background-color:green;
+    border-radius: 5px;
+}
+h1{
+    background-color:#1ccce4;
+    border-radius: 20px;
+    text-align: center;
+}
