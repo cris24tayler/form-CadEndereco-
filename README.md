@@ -1,1 +1,36 @@
 # projeto de cadastro de endereço com consumo de API (ViaCEP)
+
+# indice
+
+* [Descrição](#descri%C3%A7%C3%A3o)
+
+* [Funcionalidades](#funcionalidades)
+
+* [Fontes utilizadas ](#fontes-utilizadas)
+
+* [Autores](#autores)
+
+## descrição
+O objetivo do projeto cadastro de endereço é desenvolver um sistema de registro de usuários, incluindo coleta de informações de endereço. A interface é desenvolvida em HTML, permitindo que o usuário insira dados como CEP, por exemplo, código postal, Rua, número de residência, bairro, complemento, localidade que significa cidade e estado/UF, e escolha-o em uma lista de opções. O sistema de registro amigável é incorporado em campos de entrada de dados. usando a lógica JavaScript dedicada para interação, validação e envio de formulário pode ser executado como um arquivo separado, para garantir a segurança dos dados e sua validação, ou seja, validação CEP. Este projeto fornece uma base para melhorias e desenvolvimentos futuros.
+![print do projeto](foto_para_projeto_form_cad_endereco.png)
+## funcionalidades
+* Validação automática de CEP: O sistema pode validar e preencher automaticamente os campos de endereço com base no CEP digitado, usando uma API como ViaCEP.
+
+* Validação de Campos Obrigatórios: Adicione validações para garantir que todos os campos obrigatórios tenham sido preenchidos antes de permitir o envio do formulário, como CEP, número da residência e UF.
+
+* Formato dos dados: Verifique os formatos corretos dos dados inseridos. Por exemplo, o CEP deve ter 8 dígitos e o campo “UF” do usuário deve ter apenas 2 letras do estado.
+
+* Visual Error Feedback: Exibir feedback visual, como mensagens de erro ou a cor vermelha para destacar os campos caso o usuário não tenha preenchido corretamente.
+
+* Preenchimento automático de endereço: Quando o CEP do usuário é preenchido, o front-end do sistema preenchea automaticamente o logradouro, o bairro, a cidade e o estado, de forma a economizar o tempo de quem preenche.
+
+* Botão Reset: Adicione um botão de “Limpar formulário” para permitir que o usuário apague todos os dados inseridos de forma rápida.
+
+* Responsividade: Certifique-se de que o formulário é “responsivo” e pode se adaptar bem a diferentes tamanhos de tela, incluindo os de dispositivos móveis.
+
+## fontes utilizadas
+* encinamentos do professor [Leonardo](https://github.com/leonardorochamarista)
+* [bootstrap 5](https://getbootstrap.com/)
+
+## autores
+* Cristian Tayler
