@@ -8,6 +8,8 @@
 
 * [Fontes utilizadas ](#fontes-utilizadas)
 
+* [explicação](#explicação-de-propriedades-do-js)
+
 * [Autores](#autores)
 
 ## descrição
@@ -27,6 +29,16 @@ O objetivo do projeto cadastro de endereço é desenvolver um sistema de registr
 * Botão Reset: Adicione um botão de “Limpar formulário” para permitir que o usuário apague todos os dados inseridos de forma rápida.
 
 * Responsividade: Certifique-se de que o formulário é “responsivo” e pode se adaptar bem a diferentes tamanhos de tela, incluindo os de dispositivos móveis.
+
+## explicação de propriedades do js
+### await
+* A palavra-chave await do JavaScript é usada para aguardar que uma Promise seja resolvida ou rejeitada dentro de uma função assíncrona. Aguarda a execução da função até a Promise ser concluída, a resolução ou a rejeição, e, em seguida, ele retorna a promessa resultante. Usar await torna o código assíncrono muito mais simples. Com o await, você pode escrever um código que parece sincronico, mas executa operações assíncronicas.
+* Requisitos para await são: 
+* 1- await só poder ser usado em funções assíncronas, 
+* 2- Ele aguarda a execução da função, mas não bloquem o restante do programa.acemento.
+
+### async
+* A palavra-chave async em JavaScript define uma função assíncrona, permitindo que a palavra-chave await seja usada dentro da função. As funções assíncronas têm a finalidade de tratar de tarefas que levam tempo para serem concluídas – como chamadas de API ou operações de leitura de arquivos – e não ficam bloqueando o restante do código. Quando uma função é marcada com sendo async, ela retornará automaticamente uma Promise. Dessa forma, mesmo que a função pareça retornar um valor diretamente, na verdade, ela sempre retornará uma Promise que pode ser resolvida ou rejeitada depois.
 
 ## fontes utilizadas
 * encinamentos do professor [Leonardo](https://github.com/leonardorochamarista)
