@@ -44,5 +44,31 @@ O objetivo do projeto cadastro de endereço é desenvolver um sistema de registr
 * encinamentos do professor [Leonardo](https://github.com/leonardorochamarista)
 * [bootstrap 5](https://getbootstrap.com/)
 
+# resumo do js
+
+* 'use strict': Ativa o modo estrito, que torna o JavaScript mais seguro e rigoroso, ajudando a evitar erros comuns, como a utilização de variáveis não declaradas.
+
+* Função limparformularios: Limpa os campos do formulário relacionados ao endereço, atribuindo valores vazios ('') para os campos de logradouro, bairro, localidade e UF.
+
+* Função enumero: Verifica se uma string contém apenas números, usando uma expressão regular. Retorna true se o valor contiver apenas dígitos de 0 a 9.
+
+* Função cepvalido: Verifica se o CEP tem 8 dígitos e se é composto apenas de números, usando a função enumero.
+
+* Função preencherformulario: Preenche os campos do formulário com as informações do endereço retornado pela API, como logradouro, bairro, localidade e UF.
+
+* Função pesquisarcep: Esta função assíncrona faz o seguinte:
+
+* Limpa os campos do formulário.
+
+* Verifica se o CEP inserido é válido.
+
+* Faz uma requisição à API ViaCEP usando o CEP fornecido.
+
+* Se a resposta da API for válida (CEP encontrado), preenche o formulário com os dados do endereço.
+
+* Caso contrário, exibe uma mensagem de alerta informando que o CEP está incorreto ou não foi encontrado.
+
+* Event Listener: Um evento de escuta é adicionado ao campo de entrada de CEP. Quando o usuário sai do campo (focusout), a função pesquisarcep é chamada para buscar e preencher os dados do endereço.
+
 ## autores
 * Cristian Tayler
