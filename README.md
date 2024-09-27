@@ -6,9 +6,11 @@
 
 * [Funcionalidades](#funcionalidades)
 
-* [Fontes utilizadas ](#fontes-utilizadas)
-
 * [explicação](#explicação-de-propriedades-do-js)
+
+* [resumo](#resumo-do-js)
+
+* [Fontes utilizadas ](#fontes-utilizadas)
 
 * [Autores](#autores)
 
